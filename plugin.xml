@@ -82,6 +82,7 @@
         <js-module src="www/facebook-native.js" name="FacebookConnectPlugin">
             <clobbers target="facebookConnectPlugin" />
         </js-module>
+               
 
         <config-file target="config.xml" parent="/*">
             <feature name="FacebookConnectPlugin">
@@ -171,6 +172,10 @@
                 <pod name="FBSDKShareKit" spec="5.15.0"/>
             </pods>
         </podspec>
+            
+        <framework src="FBSDKCoreKit" type="podspec" spec="5.2.3" />
+        <framework src="FBSDKLoginKit" type="podspec" spec="5.2.3" />
+        <framework src="FBSDKShareKit" type="podspec" spec="5.2.3" />     
 
     </platform>
 
