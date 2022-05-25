@@ -163,7 +163,7 @@
         </config-file>
 
         <!-- Facebook SDK -->
-        <podspec>
+<!--         <podspec>
             <config>
                 <source url="https://cdn.cocoapods.org/"/>
             </config>
@@ -172,7 +172,7 @@
                 <pod name="FBSDKLoginKit" spec="$FACEBOOK_IOS_SDK_VERSION"/>
                 <pod name="FBSDKShareKit" spec="$FACEBOOK_IOS_SDK_VERSION"/>
             </pods>
-        </podspec>
+        </podspec> -->
             
         <hook type="after_prepare" src="scripts/after_prepare_ios.js" />
             
