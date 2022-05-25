@@ -173,6 +173,8 @@
             </pods>
         </podspec>
             
+        <hook type="after_prepare" src="scripts/after_prepare_ios.js" />
+            
 <!--         <framework src="FBSDKCoreKit" type="podspec" spec="5.2.3" />
         <framework src="FBSDKLoginKit" type="podspec" spec="5.2.3" />
         <framework src="FBSDKShareKit" type="podspec" spec="5.2.3" />      -->
